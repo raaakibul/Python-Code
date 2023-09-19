@@ -14,6 +14,7 @@ karim.name = "karim"
 karim.roll = 45
 karim.id = "jdkfgkjd"
 
+
 print(rahim.name)
 print(rahim.roll)
 print(rahim.id)

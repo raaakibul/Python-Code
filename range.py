@@ -9,4 +9,4 @@ print(num)
 index = 0 
 while index<5:
     print(num[index])
-    index = index + 1
+    index = index + 1 
