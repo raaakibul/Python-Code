@@ -9,7 +9,9 @@ class Person:
         print("Age:" ,age)
         print("Height:", height)
         print("\n")
-        
+    
+    def __del__(self):
+        print("object deleted")
 
 p1 = Person("Mike", 23, 180)
 p2 = Person("Bob",34,145)
