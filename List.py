@@ -5,6 +5,8 @@ print(subjects)
 print(subjects[0])
 print(subjects[2:])
 print(subjects[-1])
+subjects.sort()
+print(subjects)
 
 print("Python" in subjects)
 print("c--" in subjects)
