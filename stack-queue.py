@@ -16,4 +16,9 @@ bank = deque(["C", "Java", "Javascript"])
 print(bank)
 bank.popleft()
 print(bank)
-
+bank.popleft()
+print(bank)
+bank.popleft()
+print()
+if not bank:
+    print("Nothing left")
