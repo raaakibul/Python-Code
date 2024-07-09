@@ -6,3 +6,9 @@ def addition(x,y):
 # print(addition(10,20))
 addition(10,20)
 addition(45,454654654)
+
+
+def subtract(x,y):
+    return x - y
+
+print(subtract(100,45))
