@@ -4,6 +4,7 @@ def student(id, name):
     
 student(101, "Rakibul")
 
+# xargs 
 def person(*details):
     print(details)
 
