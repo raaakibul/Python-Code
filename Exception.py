@@ -2,6 +2,7 @@
 
 # result = 20/ number
 # print(result)
+# exception 
 
 try:
     list = [20,0,30]
@@ -10,4 +11,3 @@ try:
     print("Done")
 except ZeroDivisionError:
     print("Division by zero is not possible")
-        
