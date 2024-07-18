@@ -3,6 +3,7 @@ class Student:
     roll = ""
     gpa = ""
 
+# create object 
 s1 = Student()
 s2 = Student()
 print(isinstance(s1, Student))
