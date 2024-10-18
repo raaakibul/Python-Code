@@ -10,3 +10,7 @@ while True:
     print("while true endless loop")
     
 # for loop 
+n =0
+for n in range(1,20):
+    print(n)
+    
