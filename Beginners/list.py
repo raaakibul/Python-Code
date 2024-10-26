@@ -22,5 +22,5 @@ print(subjects)
 
 subjects.pop()
 print(subjects)
-subjects.push("Math")
+# subjects.push()
 print(subjects)
