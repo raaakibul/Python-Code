@@ -21,3 +21,10 @@ from collections import deque
 bank = deque(["A", "B", "C", "D"])
 bank.popleft()
 print(bank)
+bank.popleft()
+print(bank)
+bank.popleft()
+bank.popleft()
+
+if not bank:
+    print(" no bank")
