@@ -13,4 +13,11 @@ print(" now the top book is:" ,books[-1])
 books.pop()
 if not books:
     print(" no books")
-    
+
+# Queue 
+
+from collections import deque
+
+bank = deque(["A", "B", "C", "D"])
+bank.popleft()
+print(bank)
